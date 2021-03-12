@@ -3,27 +3,26 @@ body {
     background: #666666;
 }
 
-#container{
+#container {
     margin: 0 auto;
     background: #fff;
     width: 350px;
     height: 400px;
     text-align: center;
+    border-radius: 5px;
 }
 
-h1{ 
+h1 { 
     background-color: #000;
     padding: 10px;
     color: #fff;
+    border-radius: 5px 5px 0px 0px;    
 }
 
-
-
-#txt_nome, #txt_altura, #txt_peso{
+#txt_nome, #txt_altura, #txt_peso {
     margin-top: 20px;
     font-size: 13pt;
 }
-
 
 #btn {
     margin: auto;
@@ -42,4 +41,5 @@ h1{
     margin: auto;
     margin-top: 10px;
     color: #fff;
+    border-radius: 5px;
 }
